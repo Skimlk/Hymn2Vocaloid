@@ -1,3 +1,4 @@
 #!/bin/sh
-cp $1 LoadedSong.HC
-hcc -run Hymn2Vocaloid.HC
+cp $1 LoadedSong.HC && 
+hcc -run Hymn2Vocaloid.HC &&
+rm LoadedSong.HC
